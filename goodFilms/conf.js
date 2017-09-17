@@ -7,6 +7,7 @@ require("babel-register")({
 exports.config = {
     /**
      *  Uncomment ONE of the following to connect to: seleniumServerJar OR directConnect. Protractor
+     *  will auto-start selenium if you uncomment the jar, or connect directly to chrome/firefox
      *  if you uncomment directConnect.
      */
     //seleniumServerJar: "node_modules/protractor/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.4.0.jar",
